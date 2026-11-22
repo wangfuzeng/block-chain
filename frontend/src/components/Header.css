@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.header-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.status-badge {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #f1f5f9;
+  color: #64748b;
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 99px;
+  font-weight: 500;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #94a3b8;
+}
+
+.status-dot.connected {
+  background-color: #10b981;
+}
+
+.network-badge {
+  font-size: 12px;
+  font-weight: 500;
+  color: #b45309;
+  background-color: #fffbeb;
+  border: 1px solid #fde68a;
+  padding: 5px 10px;
+  border-radius: 99px;
+}
+
+.network-badge.network-ok {
+  color: #047857;
+  background-color: #ecfdf5;
+  border-color: #a7f3d0;
+}
+
+.network-badge {
+  font-size: 12px;
+  font-weight: 500;
+  color: #b45309;
+  background-color: #fffbeb;
+  border: 1px solid #fde68a;
+  padding: 5px 10px;
+  border-radius: 99px;
+}
+
+.network-badge.network-ok {
+  color: #047857;
+  background-color: #ecfdf5;
+  border-color: #a7f3d0;
+}
+
+.title-area {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.main-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: 1px;
+}
+
+.sub-title {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #64748b;
+}
